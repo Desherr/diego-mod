@@ -9,11 +9,11 @@ import funkin.play.PlayState;
 import funkin.play.stage.Stage;
 import funkin.play.character.CharacterType;
 
-class PhillySubwayMorningStage extends Stage
+class NewJerkHallStage extends Stage
 {
   function new()
   {
-    super('phillySubwayMorning');
+    super('newJerkHall');
   }
 
   var colorShaderBf:AdjustColorShader;
@@ -33,20 +33,20 @@ class PhillySubwayMorningStage extends Stage
     colorShaderDad = new AdjustColorShader();
     colorShaderGf = new AdjustColorShader();
 
-    colorShaderBf.brightness = -25;
-    colorShaderBf.hue = -10;
-    colorShaderBf.contrast = 15;
-    colorShaderBf.saturation = -10;
+    colorShaderBf.brightness = -30;
+    colorShaderBf.hue = -30;
+    colorShaderBf.contrast = 0;
+    colorShaderBf.saturation = -20;
 
-    colorShaderGf.brightness = -25;
-    colorShaderGf.hue = -22;
-    colorShaderGf.contrast = 30;
-    colorShaderGf.saturation = -10;
+    colorShaderGf.brightness = -30;
+    colorShaderGf.hue = -30;
+    colorShaderGf.contrast = 0;
+    colorShaderGf.saturation = -20;
 
-    colorShaderDad.brightness = -25;
-    colorShaderDad.hue = -10;
-    colorShaderDad.contrast = 30;
-    colorShaderDad.saturation = -10;
+    colorShaderDad.brightness = -30;
+    colorShaderDad.hue = -30;
+    colorShaderDad.contrast = 0;
+    colorShaderDad.saturation = -20;
   }
 
   function onBeatHit(event:SongTimeScriptEvent):Void

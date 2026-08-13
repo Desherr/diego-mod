@@ -9,11 +9,11 @@ import funkin.play.PlayState;
 import funkin.play.stage.Stage;
 import funkin.play.character.CharacterType;
 
-class NewJerkHallWIPStage extends Stage
+class NewJerkStreeStage extends Stage
 {
   function new()
   {
-    super('newJerkHallWIP');
+    super('newJerkSTREET');
   }
 
   var colorShaderBf:AdjustColorShader;
