@@ -20,8 +20,8 @@ class SpookyStoreStage extends Stage {
 	function buildStage() {
 		super.buildStage();
 
-		if (DiegoTakeOverOptions.diegoShaders)
-			getNamedProp('glow').blend = 1;
+		//if (DiegoTakeOverOptions.diegoShaders)
+			//getNamedProp('glow');
 	}
 
 	override function addCharacter(character:BaseCharacter, charType:CharacterType):Void {
